@@ -1,0 +1,48 @@
+body{
+    background-color: rgba(241, 241, 241, 0.849);
+    color: black;
+}
+.section_one_h2{
+    text-align: center;
+}
+
+.section_one_p{
+    text-align:justify;
+    text-indent: 50px;
+}
+
+.section_two_h2{
+    text-align: center;
+}
+
+.section_two_p{
+    text-align:justify;
+    text-indent: 5opx;
+}
+
+.section_tree_h2{
+    text-align: center;
+}
+
+.section_tree_p{
+    text-align:justify;
+    text-indent: 50px
+}
+
+.section_four_h2{
+    text-align: center;
+}
+
+.section_four_p{
+    text-align:justify;
+    text-indent: 50px;
+}
+
+.section_five_h2{
+    text-align: center;
+}
+
+.section_five_p{
+    text-align:justify;
+    text-indent: 50px;
+}

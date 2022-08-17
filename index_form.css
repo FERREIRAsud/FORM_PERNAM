@@ -1,0 +1,121 @@
+/*               TRANSIÇÃO DE PAGINA PARA PAGINA               */
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation: fadeIn 3s ease-in-out;
+    -moz-animation: fadeIn 3s ease-in-out;
+    -o-animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
+}
+
+/* ----------------------------------------------------------------------- */
+/* ESTILO E AJUSTE DE TELAS */
+body {
+    transition: auto;
+    background-color: rgb(21, 19, 43);
+    line-height: 0.8;
+    margin-top: 5%;
+    color: aliceblue;
+
+}
+
+/* ----------------------------------------------------------------------- */
+/* index_form */
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+
+a:hover {
+    color: rgb(197, 184, 0);
+}
+
+.form_intro {
+    text-align: center;
+    margin-top: 20%;
+    color: aliceblue;
+
+}
+
+.enter_intro {
+    box-shadow: 1px 1px 1px rgb(41, 41, 41);
+    background-color: transparent;
+    text-emphasis: none;
+    color: aliceblue;
+}
+
+.ONE {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.ONE_INTRO {
+    background-color:rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0);
+}
+
+/* -------------------------------------------------------------------------- */
+.style_form {
+    color: rgb(255, 255, 255);
+}
+
+.align {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.background {
+    color: rgb(255, 255, 255);
+}
+
+.GO_ONE {
+    line-height: normal;
+}
+
+.GO_TWO {
+    line-height: normal;
+}
+
+.intro_submit {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
